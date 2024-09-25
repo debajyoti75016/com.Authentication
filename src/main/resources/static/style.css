@@ -1,0 +1,49 @@
+@charset "UTF-8";
+	body{
+		    background-image: url('https://www.secureauth.com/wp-content/uploads/2022/05/types-of-authentications.jpeg');
+			background-size: cover;
+		    background-position: center; 
+			background-color: skyblue;
+			 background-repeat: no-repeat;
+			  height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            }
+             .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+          h1 {
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            margin: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-login {
+            background-color: #007bff;
+        }
+        .btn-login:hover {
+            background-color: #0056b3;
+        }
+        .btn-signUp {
+            background-color: #28a745;
+        }
+        .btn-signUp:hover {
+            background-color: #218838;
+        }
+            

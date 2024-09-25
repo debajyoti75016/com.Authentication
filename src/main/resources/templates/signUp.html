@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>signUp page</title>
+<link rel="stylesheet" type="text/css" th:href="@{/signUp.css}">
+</head>
+<body>
+<div class="signup-container">
+    <h1>Sign Up</h1>
+    <p>Create your account by filling out the form below.</p>
+    <form action="/signUp"method="post" >
+        <!-- Username -->
+        <div class="form-group">
+            <label for="name">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+        </div>
+
+        <!-- Gender -->
+        <div class="form-group">
+    <label>Gender</label>
+    <div class="gender-options">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+    </div>
+</div>
+        
+
+        <!-- Sign Up Button -->
+        <button type="submit" class="btn-signup">Sign Up</button>
+    </form>
+
+    <!-- Footer with login option -->
+    <div class="footer">
+        <p>Already have an account? <a href="#">Login</a></p>
+    </div>
+</div>
+</body>
+</html>

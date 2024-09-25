@@ -1,0 +1,38 @@
+@charset "UTF-8";
+  body {
+            margin: 0;
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Full viewport height */
+            overflow: hidden; /* Hide overflow to prevent scrollbars */
+            background-color: black; /* Background color for the body */
+        }
+
+        /* Container for the background image */
+        .container {
+            position: relative;
+            width: 100vw; /* Full viewport width */
+            min-height: 95vh; /* Minimum height for the container */
+            background-image: url("https://facty.mblycdn.com/uploads/fh/2020/06/GettyImages-514168640.jpg");
+            background-size: contain; /* Ensure the whole image is visible */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            display: flex; /* Flexbox for centering content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+           
+        }
+
+        /* Style the heading */
+        h1 {
+            color: white; /* Text color for visibility */
+            font-size: 4rem; /* Adjust font size as needed */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Optional shadow for better readability */
+            text-align: center;
+            margin: 0; /* Remove default margin */
+            padding: 1rem 2rem; /* Add padding to increase height */
+            background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background for better contrast */
+            border-radius: 10px; /* Rounded corners */
+        }

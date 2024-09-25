@@ -1,0 +1,96 @@
+@charset "UTF-8";
+   body {
+        background-image:url('https://wallpaperset.com/w/full/4/b/3/444970.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+            font-family: Times New Roman, Times, serif;
+            background-color:black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .signup-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 450px;
+            box-sizing: border-box;
+        }
+        .signup-container h1 {
+            margin-bottom: 1rem;
+            color: #333;
+            font-size: 1.5rem;
+        }
+        .signup-container p {
+            margin-bottom: 1.5rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        .form-group input:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+        }
+        .btn-signup {
+            display: block;
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-signup:hover {
+            background-color: #218838;
+        }
+        .footer {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .form-group .gender-options {
+    display: flex;
+    align-items: center;
+}
+
+.gender-options label {
+    margin-left: 10px;
+    margin-right: 10px; /* Optional: adjust spacing between options */
+}
+
+.gender-options input[type="radio"] {
+    margin-right: 3px; /* Optional: adjust spacing between button and label */
+}
